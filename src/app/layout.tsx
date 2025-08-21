@@ -10,33 +10,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body>
-        {/* Navigation Bar */}
-        <nav className="navbar sticky top-0 z-50">
-          <div className="container py-4">
-            <div className="flex items-center justify-between">
-              {/* Logo */}
-              <div className="flex items-center space-x-2">
-                <div className="w-8 h-8 bg-gradient-to-r from-orange-500 to-red-500 rounded-lg flex items-center justify-center">
-                  <span className="text-white font-bold text-sm">DR</span>
-                </div>
-                <span className="text-xl font-bold text-primary">Dream → Reality</span>
-              </div>
-              
-              {/* Navigation Links */}
-              <div className="hidden md:flex items-center space-x-8">
-                <a href="#" className="text-gray-600 hover:text-primary transition-colors">Home</a>
-                <a href="#" className="text-gray-600 hover:text-primary transition-colors">Destinations</a>
-                <a href="#" className="text-gray-600 hover:text-primary transition-colors">Hotels</a>
-                <a href="#" className="text-gray-600 hover:text-primary transition-colors">Flights</a>
-              </div>
-              
-              {/* CTA Button */}
-              <button className="btn btn-primary">
-                Plan Your Trip
-              </button>
-            </div>
-          </div>
-        </nav>
 
         {/* Main Content */}
         <main className="min-h-screen">
